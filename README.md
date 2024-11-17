@@ -10,9 +10,10 @@
 
 [Live example](https://t.me/get_id_tg_bot)
 
-Preview
-
-![example](img/example.png)
+<details>
+  <summary>Preview</summary>
+  <img src="img/example.png" alt="example">
+</details>
 
 ## Installing
 
