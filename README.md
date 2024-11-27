@@ -2,7 +2,7 @@
 
 ## Features
 
-- works in DM
+- works in DMs
 - works in group chats
 - contact support
 - aiogram 3.x

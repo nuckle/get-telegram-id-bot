@@ -2,8 +2,8 @@ import aiohttp
 import asyncio
 
 
-async def upload(url, filename):
-    timeout = aiohttp.ClientTimeout(total=5)  # 10 seconds timeout
+async def upload(url: str, filename: str):
+    timeout = aiohttp.ClientTimeout(total=10)  # 10 seconds timeout
     async with aiohttp.ClientSession(timeout=timeout) as session:
         form = aiohttp.FormData()
         try:
