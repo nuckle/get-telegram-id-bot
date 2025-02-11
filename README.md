@@ -33,7 +33,17 @@ pip install -r requirements.txt
 Run the bot 
 
 ```sh
+cd src/
 python main.py
+```
+
+## Docker setup
+
+You can use `docker compose` to run this bot
+
+```sh
+cp docker-compose.example.yaml docker-compose.yaml
+docker compose up
 ```
 
 ## Configuration

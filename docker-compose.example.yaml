@@ -1,0 +1,7 @@
+services:
+  bot:
+    build:
+      dockerfile: Dockerfile
+    stop_signal: SIGINT
+    env_file: .env
+    restart: unless-stopped
